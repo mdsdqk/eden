@@ -11,7 +11,7 @@ export default function Fourth({ displayName }) {
 				<img src={checkedIcon} alt="Onboarding Complete Icon" className="p-3" />
 			</div>
 			<FormHeader title={`Congratulations, ${displayName}!`} subTitle="You have completed the onboarding, you can start usinng the Eden!"></FormHeader>
-			<div className="max-w-xs mx-auto">
+			<div className="max-w-sm mx-auto">
 
 				<Button type="button" buttonText="Launch Eden"></Button>
 

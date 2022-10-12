@@ -3,7 +3,7 @@ export default function RadioCard({ id, name, selected, onChange, icon, iconSize
 
 	return (
 
-		<div className={`flex-1 m-2 border rounded-lg px-5 py-2 ${borders}`}>
+		<div className={`flex-1 my-2 mx-3 border rounded-lg px-5 pb-4 ${borders}`}>
 			<input type="radio" name={name} id={id} className="appearance-none"
 				value={id} onChange={onChange}
 			/>

@@ -22,9 +22,9 @@ export default function Third({ onSubmit }) {
 	};
 
 	return (
-		<div>
+		<div className="my-16">
 			<FormHeader title="How are you planning to use Eden?" subTitle="We'll streamline your setup experience accordingly."></FormHeader>
-			<div className="max-w-xs mx-auto">
+			<div className="max-w-sm mx-auto">
 				<form onSubmit={(e) => { e.preventDefault(); onSubmit(form); }}>
 					<div className="flex items-stretch">
 						<RadioCard id="self" name="usage" selected={form.usage === "self"} icon={selfIcon} iconSize="w-4" title="For myself" body="Write better. Think more clearly. Stay Organized." onChange={handleChange} />

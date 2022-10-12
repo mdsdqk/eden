@@ -20,9 +20,9 @@ export default function Second({ onSubmit }) {
 	};
 
 	return (
-		<div>
+		<div className="my-16">
 			<FormHeader title="Let's set up a home for all your work" subTitle="You can always create another workspace later"></FormHeader>
-			<div className="max-w-xs mx-auto">
+			<div className="max-w-sm mx-auto">
 				<form onSubmit={(e) => { e.preventDefault(); onSubmit(form); }}>
 					<TextInput id="workspaceName" placeholder="Eden" label="Workspace Name"
 						value={form.workspaceName} onChange={handleChange}

@@ -20,9 +20,9 @@ export default function First({ onSubmit }) {
 	};
 
 	return (
-		<div>
+		<div className="my-16">
 			<FormHeader title="Welcome! First things first..." subTitle="You can always change them later"></FormHeader>
-			<div className="max-w-xs mx-auto">
+			<div className="max-w-sm mx-auto">
 				<form onSubmit={(e) => { e.preventDefault(); onSubmit(form); }}>
 					<TextInput id="fullName" placeholder="Steve Jobs" label="Full Name"
 						value={form.fullName} onChange={handleChange}

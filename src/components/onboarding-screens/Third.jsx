@@ -7,7 +7,7 @@ import { useState } from "react";
 
 export default function Third({ onSubmit }) {
 	const [form, setForm] = useState({
-		usage: ""
+		usage: "self"
 	});
 
 	const handleChange = (e) => {

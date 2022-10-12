@@ -2,7 +2,7 @@ export default function TextInput({ id, label, placeholder, optional, groupText,
 	return (
 		<div className="m-2 w-100 mb-3">
 			<label htmlFor={id} className="block mb-1 text-sm">
-				<span className="font-medium text-gray-600">{label}</span>
+				<span className="font-semibold text-gray-600">{label}</span>
 				{
 					optional && <span className="font-medium text-gray-400"> (optional) </span>
 				}
